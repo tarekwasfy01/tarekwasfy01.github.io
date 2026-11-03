@@ -32,8 +32,15 @@
   <p>The app does not require an account and does not include advertising, third-party analytics, or developer-operated telemetry. Interface preferences, such as the selected drawing style and zoom level, may be stored in the app's local WebKit or macOS preferences storage. This data remains on your Mac under your macOS account. The app does not use it to track you across apps or websites.</p>
   <p>You choose which files to open and where to save exports using macOS file dialogs. Your files otherwise remain at the locations you choose. Local editor preferences can be removed by deleting ChemSplash's local app data from macOS. Your documents and exports must be deleted separately from their chosen locations.</p>
 
-  <h2>3. Network connections and external websites</h2>
-  <p>Normal editing uses the copy of the editor bundled in the app and does not require an account or a developer-operated server. If you follow an external website link from the editor, that website may receive standard connection data, such as your IP address, browser information, and the page requested. The operator of that website is responsible for its own processing; its privacy policy applies.</p>
+  <h2>3. Network connections and external databases</h2>
+  <p>The editor, its styles, and its chemistry engine are bundled with ChemSplash. Drawing, editing, and saving structures run locally; ChemSplash does not send your documents or structures to a ChemSplash server. Normal editing does not need an internet connection.</p>
+  <p>Some optional Ketcher tools can retrieve public chemical or macromolecular data when you choose to use them. Depending on the selected feature, your Mac may send a compound name or search term to PubChem, a PDB identifier to RCSB PDB, or a structure identifier to EMBL-EBI/PDBe. These requests go directly from your Mac to the selected provider; the developer does not receive a copy. The provider will also receive ordinary connection data such as your IP address, request time, and requested resource, and processes them under its own policies. Do not enter personal or confidential information into these public database lookup fields.</p>
+  <ul>
+    <li><a href="https://pubchem.ncbi.nlm.nih.gov/docs/policy-and-guidelines">PubChem policies</a> (U.S. National Library of Medicine / NCBI)</li>
+    <li><a href="https://www.rcsb.org/pages/privacy-policy">RCSB PDB privacy statement</a></li>
+    <li><a href="https://www.ebi.ac.uk/about/terms-of-use/">EMBL-EBI terms and privacy information</a></li>
+  </ul>
+  <p>If you follow an external website link from the editor, that website may receive standard connection data, such as your IP address, browser information, and the page requested. The operator of that website is responsible for its own processing; its privacy policy applies.</p>
   <p>This policy page is hosted with GitHub Pages. When you view it, GitHub may process technical request information under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's Privacy Statement</a>.</p>
   <p>macOS and Apple may process app installation, crash, or diagnostic information according to your system settings and Apple's own privacy terms. Such processing is controlled by Apple and is not a data feed to the app developer.</p>
 
