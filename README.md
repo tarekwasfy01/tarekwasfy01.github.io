@@ -1,7 +1,7 @@
 # Public support and privacy site
 
 This is the publish-only website folder. It contains the support home page,
-nine app-specific privacy policies, and `.nojekyll` for static hosting.
+eleven app-specific privacy policies, and `.nojekyll` for static hosting.
 
 ## Publish with GitHub Pages
 
@@ -26,6 +26,8 @@ After Pages reports the site is live, open and verify these URLs:
 - ChemSplash privacy: `https://tarekwasfy01.github.io/Privacy/ChemSplash.html`
 - R-CNN Trainer privacy: `https://tarekwasfy01.github.io/Privacy/RCNNTrainer.html`
 - RAM - Disk privacy: `https://tarekwasfy01.github.io/Privacy/RAMDisk.html`
+- Ballistics Calculator X privacy: `https://tarekwasfy01.github.io/Privacy/BallisticsCalculatorX.html`
+- Lossless Recorder privacy: `https://tarekwasfy01.github.io/Privacy/LosslessRecorder.html`
 
 The pages remain drafts until they are checked against the final submitted
 builds. Enter the app-specific privacy URL in that app's App Store Connect
