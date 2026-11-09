@@ -1,7 +1,7 @@
 # Public support and privacy site
 
 This is the publish-only website folder. It contains the support home page,
-thirteen app-specific privacy policies, and `.nojekyll` for static hosting.
+fourteen app-specific privacy policies, and `.nojekyll` for static hosting.
 
 ## Publish with GitHub Pages
 
@@ -30,6 +30,7 @@ After Pages reports the site is live, open and verify these URLs:
 - Lossless Recorder privacy: `https://tarekwasfy01.github.io/Privacy/LosslessRecorder.html`
 - RF-DETR Trainer privacy: `https://tarekwasfy01.github.io/Privacy/RFDETRTrainer.html`
 - ISA-L Zip privacy: `https://tarekwasfy01.github.io/Privacy/ISALZip.html`
+- NTFS Manager privacy: `https://tarekwasfy01.github.io/Privacy/NTFSManager.html`
 
 The pages remain drafts until they are checked against the final submitted
 builds. Enter the app-specific privacy URL in that app's App Store Connect
